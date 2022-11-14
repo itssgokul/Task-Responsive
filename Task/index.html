@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="left-section">
+        <div class="logo">
+          <img src="asset/img/Type=Support.svg" alt="logo" />
+        </div>
+        <div class="input">
+          <!-- <i class="fa-solid fa-magnifying-glass"></i>    -->
+          <input type="text" placeholder="search" />
+        </div>
+        <div class="main-menu">
+          <ul>
+            <li>
+              <a href="#"> <i class="fa-solid fa-chart-line"></i>Dasboard</a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-user"></i><span>Subscribers</span></a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-file-lines"></i> <span>Repotrs</span></a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-screwdriver-wrench"></i
+                ><span>Configuration</span></a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-cloud"></i><span>Clouds</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-area">
+        <div class="content-header">
+          <div class="hedder-right">
+            <p>Subscribers / Maria Mason</p>
+            <h4>Maria Mason</h4>
+          </div>
+          <div class="hedder-left">
+            <p class="dot"><span>...</span></p>
+            <p>Call History</p>
+            <p>Log Call Outcome</p>
+          </div>
+        </div>
+        <hr />
+
+        <div class="content-primery-nav">
+          <ul>
+            <li>
+              <i class="fa-solid fa-bars"></i>
+              <h3>Overview</h3>
+              <p>High QoE score</p>
+              <p>
+                3 Alerts<i class="fa-solid fa-triangle-exclamation allert"></i>
+              </p>
+            </li>
+            <li>
+              <i class="fa-solid fa-cloud"></i>
+              <h3>Service</h3>
+              <p>Good upload speed</p>
+              <p>
+                Poor download speed<i
+                  class="fa-solid fa-triangle-exclamation allert"
+                ></i>
+              </p>
+            </li>
+            <li>
+              <i class="fa-solid fa-server"></i>
+              <h3>Systems</h3>
+              <p>RG MGM1028</p>
+              <p>Mesh(SAT) MGM1028</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-wifi"></i>
+              <h3>Wi-Fi</h3>
+              <p>2 dual-band SSIDs</p>
+              <p>tri-band SSIDs</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-desktop"></i>
+              <h3>Devices</h3>
+              <p>
+                7 connected<i
+                  class="fa-solid fa-triangle-exclamation allert"
+                ></i>
+              </p>
+              <p>12 disconnected</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-cloud-arrow-up"></i>
+              <h3>EDGE Suites</h3>
+              <p>enabled</p>
+              <p>2 subscribed</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="content-secoundery-nav">
+          <ul>
+            <li>Data</li>
+            <li>Voice</li>
+            <li>Video</li>
+            <li>Trafic Reports</li>
+          </ul>
+        </div>
+
+        <div class="chart-table-section">
+          <div class="content-charts">
+            <div class="chart-top">
+              <div class="speed-chart">
+                <div class="chart-header">
+                  <div class="line-one">
+                    <p>Speed Test</p>
+                    <button>Run Speed Test</button>
+                  </div>
+                  <p><span>Last test ran 2 days, 48 seconds ago</span></p>
+                  <span><a href="#">Public Server</a></span
+                  ><span><a href="#">Private Server</a></span>
+                </div>
+                <img src="asset/img/chart-1.jpg" alt="chart" />
+              </div>
+              <div class="latency-chart">
+                <div class="chart-header">
+                  <div class="line-one">
+                    <p>Latency Test</p>
+                    <button>Run Latency Test</button>
+                  </div>
+                  <p><span>Last test ran 2 hours ago</span></p>
+                  <div class="error">
+                    <div class="error-icon">
+                      <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <div class="error-msg">
+                      <p>0 Packets transmitted</p>
+                      <p>0 Packets received - 100% packet loss</p>
+                    </div>
+                  </div>
+                </div>
+                <img src="asset/img/chart-2.jpg" alt="chart" />
+              </div>
+            </div>
+
+            <div class="chart-bottem">
+              <div class="chart-bottem-header">
+                <p>Bandwidth Utilization</p>
+                <p class="success">
+                  <i class="fa-solid fa-circle-check success-icon"></i>Bandwidth
+                  was above 90% (of the allocated 0 Mbps) in the last 7 days
+                </p>
+              </div>
+              <img src="asset/img/chart-3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="content-table">
+            <div class="tables">
+              <div class="top-table table">
+                <h3>Average Speed</h3>
+                <p>Average speed for traffic and devices priorties</p>
+                <table>
+                  <tr>
+                    <td>Download speead</td>
+                    <td>167.69 Mbps</td>
+                  </tr>
+                  <tr>
+                    <td>Upload Speed</td>
+                    <td>31.37Mbps</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="bottem-table table">
+                <h3>WAN</h3>
+                <span>WAN</span>
+                <span>WANG</span>
+                <table>
+                  <tr>
+                    <td>Uptime</td>
+                    <td>7d 9h 01m 07s</td>
+                  </tr>
+                  <tr>
+                    <td>Connection Status</td>
+                    <td>Connected</td>
+                  </tr>
+                  <tr>
+                    <td>MAC Address</td>
+                    <td>f8:36:9b:77:30:40</td>
+                  </tr>
+                  <tr>
+                    <td>Upstream</td>
+                    <td>100 Mbps</td>
+                  </tr>
+                  <tr>
+                    <td>VLAN D</td>
+                    <td>n/a</td>
+                  </tr>
+                  <tr>
+                    <td>VLAN Priority</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>Bytes Received</td>
+                    <td>31093847562</td>
+                  </tr>
+                  <tr>
+                    <td>Packets Received</td>
+                    <td>36482927364</td>
+                  </tr>
+                  <tr>
+                    <td>Addressing Type</td>
+                    <td>DHCP</td>
+                  </tr>
+                  <tr>
+                    <td>Connection Type</td>
+                    <td>IP_Routed</td>
+                  </tr>
+                  <tr>
+                    <td>Default Gateway</td>
+                    <td>92.168.219.1</td>
+                  </tr>
+                  <tr>
+                    <td>Subnet Mask</td>
+                    <td>255.255.255.0</td>
+                  </tr>
+                  <tr>
+                    <td>DNS Servers</td>
+                    <td>61.41.156.2.1.214.68.2</td>
+                  </tr>
+                  <tr>
+                    <td>External IP Address</td>
+                    <td>192.168.219.191</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
